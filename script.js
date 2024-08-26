@@ -5,6 +5,7 @@ function roll(num) {
     "Have Breakfast",
     "No High Sugar Drinks",
     "Have Salad",
+    "College Applications",
     "exc1"
   ]
   let rolled = ["", "", "", ""];
@@ -30,7 +31,6 @@ function displayRoll(chal) {
   buttons.forEach(button => {
     button.style.display = 'none';
   });
-
 
   let containers = document.querySelectorAll('div.container');
   containers.forEach(container => {
