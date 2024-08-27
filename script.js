@@ -6,16 +6,12 @@ function roll(num) {
     "No High Sugar Drinks",
     "Have Salad",
     "College Applications",
-    "exc1"
+    "Late Night Exercise"
   ]
   let rolled = ["", "", "", ""];
   for (let i = 0; i < num; i++) {
     let idx = Math.floor(Math.random()*challenges.length);
-    if (challenges[idx] == "exc1") {
-      rolled[i] = Math.random() < 0.5 ? "Late Night Exercise" : "In Bed Before 0000";
-    } else {
-      rolled[i] = challenges[idx];
-    }
+    rolled[i] = challenges[idx];
     challenges.splice(idx, 1);
   }
   displayRoll(rolled);
