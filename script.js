@@ -4,7 +4,7 @@ function roll(num) {
     "Physically Touch Grass",
     "Have Breakfast",
     "No High Sugar Drinks",
-    "Have Salad",
+    "Eat Salad",
     "College Applications",
     "Late Night Exercise"
   ]
