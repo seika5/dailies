@@ -2,7 +2,6 @@ function roll(num) {
   let challenges = 
   [
     "Physically Touch Grass",
-    "Have Breakfast",
     "No High Sugar Drinks",
     "Have Salad",
     "College Applications",
